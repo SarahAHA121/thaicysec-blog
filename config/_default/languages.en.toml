@@ -1,0 +1,27 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "ThaiCySec - Cybersecurity Blog"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Cybersecurity research, offensive security, cloud security, AI security, detection engineering, and practical blue/red team insights."
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "ThaiCySec - Sarah Saran Hansakul"
+  image = "img/profile.jpg"
+  headline = "Cybersecurity Research • Offensive Security • Detection Engineering"
+  bio = "Cybersecurity knowledge sharing, offensive security research, cloud security, detection engineering, and practical defensive insights by Sarah."
+  links = [
+     { email = "mailto:sarah@thaicysec.com" },
+     { linkedin = "https://www.linkedin.com/in/sarahhansakul/" },
+     { facebook = "https://facebook.com/thaicysec" },
+     { github = "https://github.com/SarahAHA121" },
+   ]

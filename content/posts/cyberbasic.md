@@ -1,0 +1,87 @@
++++
+date = 2026-05-07T12:21:26+07:00
+draft = false
+title = "The Cybersecurity Fundamentals That Survive Every Era, Even AI"
+tags = ["Cybersecurity", "Career", "AI Security", "Networking", "Fundamentals"]
+categories = ["Cybersecurity Basics"]
+summary = "Why strong IT and cybersecurity fundamentals still matter more than hype, even in the AI era."
++++
+
+# Introduction
+
+Every few years, cybersecurity changes personality again.
+
+One year everybody suddenly becomes malware analysts. Then cloud engineers. Then threat hunters. Then AI security experts after prompting ChatGPT five times and adding “GenAI Security Specialist” into LinkedIn before even understanding why DNS breaking can destroy half the office.
+
+The buzzwords change fast. The logos become shinier. Vendors keep inventing dramatic names for things that are honestly just old concepts wearing expensive new jackets.
+
+But underneath all of that chaos, the foundations barely move.
+
+Computers still need to communicate. Systems still need trust. Humans still click things they absolutely should not click. Attackers still look for weak points, and defenders still need to understand what is actually happening underneath the dashboards instead of praying the SIEM magically explains everything itself.
+
+That is why people with strong fundamentals usually adapt frighteningly fast when new technology appears. Once you truly understand the basics, most “new” technology starts feeling less like magic and more like the same old problems wearing prettier makeup.
+
+One thing I noticed after years in cybersecurity is that this industry is addicted to hype. Every few years there is always a new “learn this immediately or become obsolete” topic. Right now it is AI. Before that it was Zero Trust, XDR, blockchain security, cloud everything, threat hunting, Kubernetes, and whatever vendors needed to put into conference slides that year.
+
+The funny part is that many people rush so hard toward advanced topics that they completely skip understanding the systems underneath. Some want to become malware developers, exploit developers, AI security researchers, or cloud pentesters before understanding networking, authentication, operating systems, permissions, or even how packets move through a network.
+
+Then reality arrives very quickly.
+
+The moment something behaves unexpectedly, many suddenly have no idea how to troubleshoot anything without copying commands from Reddit or Stack Overflow.
+
+The uncomfortable truth is that fundamentals are not sexy. Nobody posts Instagram stories saying they spent the entire weekend studying DNS replication and Kerberos tickets.
+
+Meanwhile DNS silently carries half the modern internet on its back while people continue pretending it is “basic knowledge” until it breaks production at 2AM.
+
+And honestly, networking alone is probably one of the highest ROI skills in cybersecurity. Almost everything eventually becomes networking somehow. Cloud security becomes networking plus identity. Malware analysis eventually touches networking. Web security is networking. Detection engineering depends heavily on understanding traffic and system behavior.
+
+Even AI systems increasingly rely on APIs, external tools, plugins, remote models, and distributed communication everywhere.
+
+Once you understand how systems actually communicate, troubleshooting changes completely. You stop randomly clicking things hoping the issue disappears and start tracing the logic underneath the problem instead.
+
+That mindset alone separates people who understand systems from people who only understand products.
+
+Even old concepts people love calling “boring” somehow continue surviving every technology era. The CIA triad is a perfect example. Confidentiality, Integrity, and Availability sound ancient because everybody learns them early and then immediately forgets them while chasing hype.
+
+But somehow almost every modern attack still damages one of those three things anyway.
+
+Ransomware destroys availability. Credential theft destroys confidentiality. Supply chain attacks destroy integrity. AI prompt injection? Congratulations, now we are damaging confidentiality and trust boundaries again with fancier vocabulary.
+
+The technology evolves, but the core problems stubbornly refuse to die.
+
+This is also why I think AI is making strong fundamentals more important instead of less important. AI can generate scripts, detections, code, attack chains, reports, and configurations frighteningly fast.
+
+But if the person using it does not understand the underlying systems properly, they may not even realize the output is wrong, insecure, hallucinated, or architecturally cursed beyond repair.
+
+AI accelerates people. Unfortunately that includes accelerating bad decisions too.
+
+The people benefiting the most from AI right now are usually not the people blindly copy-pasting prompts all day. It is the people who already understand systems deeply enough to validate the output intelligently and recognize when the AI is confidently hallucinating nonsense.
+
+One thing I genuinely admire about strong cybersecurity people is that they stay curious about systems themselves, not just products.
+
+They keep asking annoying but important questions.
+
+Why does this trust that?  
+What assumptions exist here?  
+What happens if this fails?  
+Where is the actual boundary?  
+Where does the data really flow?
+
+That curiosity builds adaptability, and adaptability matters much more than memorizing temporary tools because this industry changes constantly.
+
+Products die. Vendors rebrand everything every three years. Fancy dashboards come and go. But people who understand systems deeply usually survive the transitions much better than people who only memorized workflows.
+
+Cybersecurity will continue changing outfits forever. AI will evolve. Cloud platforms will evolve. Attack chains will evolve. Vendors will continue inventing increasingly dramatic product names that sound like Marvel movie titles.
+
+But somehow the fundamentals keep surviving every era anyway.
+
+Networking still matters. Authentication still breaks companies every single day. Trust boundaries still decide whether an incident becomes a disaster. System understanding still matters no matter how smart AI becomes.
+
+The people investing time into those foundations may sometimes feel slower at the beginning compared to people speedrunning hype cycles online.
+
+But years later, they are usually the ones adapting the fastest when the industry changes again.
+
+And trust me, this industry always changes again.
+
+#Sarah59  
+#ThaiCySec
