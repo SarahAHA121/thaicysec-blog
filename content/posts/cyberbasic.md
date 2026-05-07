@@ -7,9 +7,7 @@ categories = ["Basics"]
 summary = "Why strong IT and cybersecurity fundamentals still matter more than hype, even in the AI era."
 +++
 
-# Introduction
-
-Every few years, cybersecurity changes personality again.
+Every few years to everyday now, cybersecurity changes personality again and again. Already exhausted?
 
 One year everybody suddenly becomes malware analysts. Then cloud engineers. Then threat hunters. Then AI security experts after prompting ChatGPT five times and adding “GenAI Security Specialist” into LinkedIn before even understanding why DNS breaking can destroy half the office.
 
@@ -30,6 +28,17 @@ Then reality arrives very quickly.
 The moment something behaves unexpectedly, many suddenly have no idea how to troubleshoot anything without copying commands from Reddit or Stack Overflow.
 
 The uncomfortable truth is that fundamentals are not sexy. Nobody posts Instagram stories saying they spent the entire weekend studying DNS replication and Kerberos tickets.
+
+One funny thing is that people always say fundamentals are “boring” until they realize many top-tier security people still have ridiculously strong Computer Science foundations underneath.
+
+And honestly, if you want to see how “unsexy” fundamentals supposedly are, go look at Harvard CS50 that my friends keep sending around every few years whenever somebody asks where to start learning properly.
+
+![Harvard CS50](/images/cs50.jpg)
+
+CS50 somehow survives every era too. Networking, memory, algorithms, systems, problem solving — the concepts keep following you everywhere no matter whether you end up in cloud security, malware analysis, AI security, or offensive operations.
+
+- 🎓 [Harvard CS50 on edX](https://www.edx.org/cs50)
+- ▶️ [CS50 Introduction Video](https://www.youtube.com/watch?v=gmuTjeQUbTM)
 
 Meanwhile DNS silently carries half the modern internet on its back while people continue pretending it is “basic knowledge” until it breaks production at 2AM.
 
