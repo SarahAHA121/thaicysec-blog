@@ -23,5 +23,6 @@ title = "ThaiCySec - Cybersecurity Blog"
      { email = "mailto:sarah@thaicysec.com" },
      { linkedin = "https://www.linkedin.com/in/sarahhansakul/" },
      { facebook = "https://facebook.com/thaicysec" },
+     { tiktok = "https://www.tiktok.com/@thaicysec" },
      { github = "https://github.com/SarahAHA121" },
    ]

@@ -2,8 +2,8 @@
 date = 2026-05-07T12:21:26+07:00
 draft = false
 title = "The Cybersecurity Fundamentals That Survive Every Era, Even AI"
-tags = ["Cybersecurity", "Career", "AI Security", "Networking", "Fundamentals"]
-categories = ["Cybersecurity Basics"]
+tags = ["Cybersec", "Career", "AI Security", "Networking", "Basics"]
+categories = ["Basics"]
 summary = "Why strong IT and cybersecurity fundamentals still matter more than hype, even in the AI era."
 +++
 

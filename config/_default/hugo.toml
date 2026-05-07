@@ -1,6 +1,6 @@
 # -- Site Configuration --
 theme = "blowfish"
-baseURL = "https://blog.thaicysec.com/"
+baseURL = "https://thaicysec.com/"
 defaultContentLanguage = "en"
 title = "ThaiCySec - Cybersecurity Blog"
 
