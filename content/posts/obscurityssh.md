@@ -13,11 +13,11 @@ One of the oldest arguments in cybersecurity is probably:
 
 > “Security Through Obscurity is not real security.”
 
-And honestly, I understand why many security people dislike that phrase so much.
+And honestly, I understand why many security people dislike that phrase so much. Why just change port number from 80 to 8080 or 65080 does not have any useful like setting to not expose web server or CMS name and versions?
 
 Because if a system is fundamentally vulnerable, simply hiding the version number or changing the default port will not magically save it from compromise. A determined attacker will eventually fingerprint the service anyway.
 
-But after working with real systems for years, I also think many people oversimplify this discussion too much.
+But after working with real systems for years, I also think many people oversimplify this discussion too much, even make it like a vulnerability that need to be solved, even its solution is really not practical and so risky.
 
 Because in reality, attackers are lazy too.
 
@@ -159,6 +159,10 @@ Still compatible with normal updates.
 Still supported behavior.
 
 And honestly, for most real-world environments, that level of reduction is already enough.
+
+And even if you dare to edit the OpenSSL package and recompile successfully, it will go back to default version exposed after "abnormal long long time apt upgrade" again as shown in the picture:
+
+![OpenSSL version is still exposed](/images/OpenSSHversion.jpg)
 
 The same mindset applies elsewhere too.
 

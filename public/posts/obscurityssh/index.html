@@ -265,7 +265,7 @@
     "keywords": ["Cybersec","Hardening","Linux","SSH","Blue Team","Infrastructure"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "950"
+    "wordCount": "1033"
   }]
   </script>
 
@@ -679,7 +679,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-05-10T09:59:41&#43;07:00">10 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span>950 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+      <time datetime="2026-05-10T09:59:41&#43;07:00">10 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1033 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
 
     
@@ -1053,9 +1053,9 @@
 </h1>
 <p>One of the oldest arguments in cybersecurity is probably:</p>
 <blockquote><p>“Security Through Obscurity is not real security.”</p>
-</blockquote><p>And honestly, I understand why many security people dislike that phrase so much.</p>
+</blockquote><p>And honestly, I understand why many security people dislike that phrase so much. Why just change port number from 80 to 8080 or 65080 does not have any useful like setting to not expose web server or CMS name and versions?</p>
 <p>Because if a system is fundamentally vulnerable, simply hiding the version number or changing the default port will not magically save it from compromise. A determined attacker will eventually fingerprint the service anyway.</p>
-<p>But after working with real systems for years, I also think many people oversimplify this discussion too much.</p>
+<p>But after working with real systems for years, I also think many people oversimplify this discussion too much, even make it like a vulnerability that need to be solved, even its solution is really not practical and so risky.</p>
 <p>Because in reality, attackers are lazy too.</p>
 <p>And reducing unnecessary information exposure absolutely can reduce attack surface, automated exploitation, noise from scanners, and opportunistic attacks — as long as we stay realistic and do not turn operational hardening into self-inflicted suffering.</p>
 <p>That balance is the important part.</p>
@@ -1178,6 +1178,15 @@ Easy maintenance.
 Still compatible with normal updates.
 Still supported behavior.</p>
 <p>And honestly, for most real-world environments, that level of reduction is already enough.</p>
+<p>And even if you dare to edit the OpenSSL package and recompile successfully, it will go back to default version exposed after &ldquo;abnormal long long time apt upgrade&rdquo; again as shown in the picture:</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="OpenSSL version is still exposed"
+    src="/images/OpenSSHversion.jpg"
+    ></figure>
 <p>The same mindset applies elsewhere too.</p>
 <p>Removing:</p>
 <ul>
