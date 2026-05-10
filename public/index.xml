@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 ThaiCySec - Sarah Saran Hansakul</copyright>
-    <lastBuildDate>Thu, 07 May 2026 17:03:57 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2026 09:59:41 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Security by Obscurity, by hiding ports, framework or platform name and versions at which extended? Practical or Operational Hell?</title>
+      <link>http://localhost:1313/posts/obscurityssh/</link>
+      <pubDate>Sun, 10 May 2026 09:59:41 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/obscurityssh/</guid>
+      <description>How far should we go hiding versions, frameworks, and platform details from attackers before security hardening becomes operational pain?</description>
+      
+    </item>
     
     <item>
       <title>About</title>
